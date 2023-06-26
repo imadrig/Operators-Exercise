@@ -7,7 +7,7 @@
             int a = 17;
             int b = 4;
             
-            int remainder = a % b;
+            
 
             int sum = a + b;
             Console.WriteLine($"The sum of 17 + 4 is {sum}.");
@@ -18,7 +18,14 @@
             int product = a * b; 
             Console.WriteLine($"The product of 17 x 4 is {product}.");
 
+            int quotient = a / b;
+            Console.WriteLine($"The quotient of 17 / 4 is {quotient}.");
 
+            int remainder = a % b;
+            Console.WriteLine($"The remainder of 17 / 4 is {remainder}.");
+
+            if (a == 17 && b == 4);
+            Console.WriteLine($"17 / 4 is {quotient} remainder {remainder}.");
         }
     }
 }
